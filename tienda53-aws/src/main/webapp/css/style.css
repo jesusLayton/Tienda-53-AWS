@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, #8DB600 0%, #edf16c 100%);
+  font-family: 'Rubik', sans-serif;
+  height: 100vh;
+}
+
+.login-box {
+  width: 340px;
+  height: 420px;
+  opacity: .9;
+  background-color: whitesmoke(0, 0, 0);
+  background: whitesmoke;
+  background: whitesmoke(0, 0, 0);
+  color: black;
+  top: 300px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  border-radius: 20px;
+  z-index: 1;
+  box-shadow: 5px 5px rgba(80, 99, 20, 0.2);
+}
+
+/*para el logo*/
+.login-box .avatar {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: -60px;
+  left: calc(50% - 60px);
+}
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 18 px;
+  font-weight: bold;
+}
+
+.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.login-box input {
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+.login-box input {
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: black;
+  font-size: 16px;
+}
+
+.btn-login {
+  background-color: #333!important;
+  width: 45%!important;
+  height: 36px!important;
+  margin: 0 2%!important;
+  border: 0px!important;
+  color: #fff!important;
+}
+
+.us, .pas {
+  transition-duration: .5s;
+}
+
+.us:hover, .pas:hover, .us:focus, .pas:hover, .us:valid, .pas:valid{
+  transition: .5s all;
+  margin-left: 8px;
+}
+
+footer {
+  z-index: 0;
+  width: 100%;
+}
+
+footer img {
+  width: 100%;
+  height: auto;
+}
+
+.forgot-pass {
+  font-size: 10pt;
+  text-align: right;
+}
+
+.btn:hover{
+  border: solid 1px #8DB600!important;
+  background-color: #8DB600!important;
+}
+
+.btn:focus{
+  box-shadow: 0px;
+}
+
+i {
+  color: #8DB600;
+}
+
+<<<<<<< HEAD:tienda53/src/main/webapp/css/style.css
+header{
+  color: black;
+  background:  #edf16c;
+}
+=======
+.i-white{
+	color: #FFF;
+}
+
+
+.sidebar-logo{
+	height: 400%;
+}
+
+.sidebar-brand{
+	margin: 10px 0px;
+}
+>>>>>>> e86d26ecce6ac02d0181d08d2f8748d904048da4:tienda53/src/main/webapp/Styles/style.css
