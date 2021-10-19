@@ -98,7 +98,7 @@
 	
 	function eliminar(cedula){
 		if(confirm("Seguro que desea eliminar el cliente con cedula: " + cedula + "?")){
-			window.location.replace(baseUrl + "eliminarcliente/" + cedula);
+			window.location.replace(baseUrl + "/eliminarcliente/" + cedula);
 		}
 	}
 		

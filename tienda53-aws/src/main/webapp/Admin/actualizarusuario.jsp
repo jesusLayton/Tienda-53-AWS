@@ -78,7 +78,7 @@
 
 		function loadClientes() {
 			var xmlhttp = new XMLHttpRequest();
-			xmlhttp.open("GET", baseUrl, true);
+			xmlhttp.open("GET", baseUrl + "/consultarUsuario/" + cedula, true);
 			
 						
 			xmlhttp.onreadystatechange = function() {

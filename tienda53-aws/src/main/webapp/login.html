@@ -75,10 +75,11 @@
 			var baseUrl = getUrl.protocol + "//"+ getUrl.host + "/" + getUrl.pathname.split('/')[1];
 			
 			//creando un objeto de manipulacion de solicitudes
+			var localhost = "localhost:8080";
 			var xmlhttp = new XMLHttpRequest();
 			
 			//abriendo la api
-			var localhost = "localhost:8080";
+			
 			xmlhttp.open("GET", baseUrl + "/listarUsuarios", true);
 			
 			
